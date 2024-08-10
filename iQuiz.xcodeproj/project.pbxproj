@@ -16,6 +16,9 @@
 		B7847A402C66562300210FF1 /* iQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7847A3F2C66562300210FF1 /* iQuizTests.swift */; };
 		B7847A4A2C66562300210FF1 /* iQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7847A492C66562300210FF1 /* iQuizUITests.swift */; };
 		B7847A4C2C66562300210FF1 /* iQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7847A4B2C66562300210FF1 /* iQuizUITestsLaunchTests.swift */; };
+		B7847A592C666D3100210FF1 /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7847A582C666D3100210FF1 /* QuestaoViewController.swift */; };
+		B7847A5B2C66778900210FF1 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7847A5A2C66778900210FF1 /* Question.swift */; };
+		B7847A5D2C6685FD00210FF1 /* DesempenhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7847A5C2C6685FD00210FF1 /* DesempenhoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B7847A452C66562300210FF1 /* iQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7847A492C66562300210FF1 /* iQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQuizUITests.swift; sourceTree = "<group>"; };
 		B7847A4B2C66562300210FF1 /* iQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7847A582C666D3100210FF1 /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
+		B7847A5A2C66778900210FF1 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		B7847A5C2C6685FD00210FF1 /* DesempenhoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesempenhoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				B7847A312C66562200210FF1 /* Assets.xcassets */,
 				B7847A332C66562200210FF1 /* LaunchScreen.storyboard */,
 				B7847A362C66562200210FF1 /* Info.plist */,
+				B7847A582C666D3100210FF1 /* QuestaoViewController.swift */,
+				B7847A5A2C66778900210FF1 /* Question.swift */,
+				B7847A5C2C6685FD00210FF1 /* DesempenhoViewController.swift */,
 			);
 			path = iQuiz;
 			sourceTree = "<group>";
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7847A5B2C66778900210FF1 /* Question.swift in Sources */,
 				B7847A2D2C66562000210FF1 /* ViewController.swift in Sources */,
 				B7847A292C66562000210FF1 /* AppDelegate.swift in Sources */,
 				B7847A2B2C66562000210FF1 /* SceneDelegate.swift in Sources */,
+				B7847A5D2C6685FD00210FF1 /* DesempenhoViewController.swift in Sources */,
+				B7847A592C666D3100210FF1 /* QuestaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +462,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,6 +491,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
